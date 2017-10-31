@@ -44,7 +44,7 @@ else {	$eng_str =~ s#(.*/filters/(.*/+))##;
     }
 	
 
-$r->internal_redirect("https://www.technodom.kz/$result");
+$r->internal_redirect("https://YOUR_SITE/$result");
 
 return OK;
 }
